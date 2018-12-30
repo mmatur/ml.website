@@ -1,0 +1,62 @@
+{{ define "main" }}
+    <section class="container-fluid bg-dark_section">
+        <div class="row">
+            <div class="col-12 col-md-6 text-md-left text-left">
+                <h1>Pour qui ?</h1>
+                
+                {{ range .Pages }}
+                <h4>
+                    <a href="#{{ replace .Title " " "_" }}">→ {{ .Title }}</a>
+                </h4>
+                {{ end }}
+
+            </div>
+            <div class="col-6 d-none d-md-block">
+                <img class="pour-qui-img" title="Pour tous" src="/img/pour-qui/family.jpg"/>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid bg-light">
+    {{ range $index, $element := .Pages }}
+        <a id="{{ replace .Title " " "_" }}"></a>
+        {{ if not (eq $index 0) }}
+        <hr class="my-5"/>
+        {{ end }}
+
+        
+        <div class="row text-center">
+            {{ if (modBool $index 2) }}
+            <div class="col-4 col-md-4 text-center">
+                <div class="row">
+                    <div class="col">
+                        <img class="pour-qui-img" title="{{ .Params.title }}" src="{{ .Params.related_image }}"/>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+
+            <div class="col-8 col-md-8 text-left">
+                <div class="row">
+                    <div class="col">
+                        <h1>{{ .Title }}</h1>
+                        {{ .Content }}
+                    </div>
+                </div>
+            </div>
+
+            {{ if not (modBool $index 2) }}
+            <div class="col-4 col-md-4 text-center">
+                <div class="row">
+                    <div class="col">
+                        <img class="pour-qui-img" title="{{ .Params.title }}" src="{{ .Params.related_image }}"/>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    {{ end }}
+    </section>
+
+{{ end }}
+

@@ -1,0 +1,322 @@
+$theme-colors: (
+  "dark": #000000,
+  "dark_section": #73BFC0,
+  "light_section": #FFFFFF,
+  "primary": #000000,
+  "secondary": #12B5DA,
+  "info": #12B5DA,
+  "primary_in_dark_section": #000000,
+  "primary_in_light_section": #000000
+);
+$enable-flex: true;
+$enable-rounded: true;
+$enable-shadows: true;
+$enable-gradients: true;
+$enable-transitions: true;
+$screen-sm-max: 575.9px;
+$screen-md-min: 768px;
+$screen-md-max: 992px;
+$body-bg: #f8f9fa;
+$max-width: none;
+/* 1440px; */
+$spacer: 1rem;
+$spacers: (
+  6: ($spacer * 5),
+  7: ($spacer * 7)
+);
+
+@import "../../../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding-right: 0 !important;
+}
+
+.modal-open {
+  overflow: visible;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+}
+
+section {
+  display: block;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  width: 100%;
+
+  p {
+    line-height: 2em;
+  }
+}
+
+section p:last-child {
+  margin-bottom: 0;
+}
+
+.bg-dark_section {
+  h1, .title {
+    color: #FFFFFF;
+    font-size: 2rem;
+  }
+  h2 {
+    color: #FFFFFF;
+    font-size: 2rem;
+  }
+  p {
+    color: #FFFFFF;
+    font-size: 1.1em;
+    line-height: 2em;
+  }
+  a {
+    color: #FFFFFF;
+  }
+}
+
+.bg-light {
+  h1, .title {
+    color: #212529;
+    font-size: 2rem;
+  }
+  h2 {
+    color: #212529;
+    font-size: 2rem;
+  }
+  p {
+    color: #212529;
+    font-size: 1.1em;
+    line-height: 2em;
+  }
+  a {
+    color: #212529;
+  }
+}
+
+/*
+ ------------------------------------------------------------------------------------------------------
+  The navbar
+ ------------------------------------------------------------------------------------------------------
+*/
+#logo {
+  height: 36px;
+}
+
+#ml-navbar {
+  box-shadow: none;
+  -webkit-transition: padding 0.2s linear;
+  -moz-transition: padding 0.2s linear;
+  -o-transition: padding 0.2s linear;
+  transition: padding 0.2s linear;
+}
+
+.navbar-brand {
+  font-size: 1em;
+}
+
+.shrinked-menu {
+  padding: 1px;
+  margin: 0;
+  -webkit-transition: padding 0.2s linear;
+  -moz-transition: padding 0.2s linear;
+  -o-transition: padding 0.2s linear;
+  transition: padding 0.2s linear;
+
+  .nav-link {
+    padding: 0.3em;
+  }
+}
+
+.ml-shrinked-menu {
+  background: #73BFC0;
+  border-bottom: 1px solid #73BFC0;
+}
+
+nav a {
+  font-size: 0.9em;
+}
+
+.nav-link {
+  border-radius: 1em;
+}
+
+
+
+/*
+ ------------------------------------------------------------------------------------------------------
+  The body main aspect
+ ------------------------------------------------------------------------------------------------------
+  Everything has to be in rows so everything looks as intended
+ ------------------------------------------------------------------------------------------------------
+*/
+.ml-content {
+  max-width: $max-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: $max-width;
+  background: #73bfc0;
+  border-bottom: 1px solid #73bfc0;
+}
+
+// #ml-menu {
+//   max-width: 940px;
+// }
+
+.rdv-header {
+  padding-left: 1em;
+  padding-right: 1em;
+  border: 1px solid #EEEEEE;
+  border-radius: 15px;
+  font-size: 2rem;
+  &::before {
+    content:  'Prendre rendez-vous';
+    @media(max-width: $screen-sm-max) {
+      content: 'RDV';
+    }
+    text-decoration: none;
+    color: #EEEEEE;
+  }
+  &:hover {
+    text-decoration: none;
+    color: #EEEEEE;
+  }
+}
+
+.rdv-menu {
+  padding-left: 1em;
+  padding-right: 1em;
+  border: 1px solid #EEEEEE;
+  border-radius: 5px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+
+.pour-qui-img {
+  width: 100%;
+  height: auto;
+}
+
+.votre-osteo-img {
+  width: 100%;
+  height: auto;
+}
+/*
+ ------------------------------------------------------------------------------------------------------
+  Header
+ ------------------------------------------------------------------------------------------------------
+*/
+.ml-header {
+  height: 36em;
+  background-image: url("/img/header-scale2.jpg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+  
+  @media(max-width: $screen-md-min) {
+    height: auto;
+    padding-bottom: 5em;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    color: #212530;
+    @media(min-width: $screen-md-min) {
+      padding-top: 2em;
+    }
+  }
+
+  .row {
+    /* padding-top: 10em; */
+    @media(max-width: 800px) {
+      padding-top: 6em;
+    }
+  }
+}
+
+.dark-box-md {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 24px;
+  padding: 2em;
+  border: 2px #000000 solid;
+  @media(min-width: $screen-md-min) {
+    background-color: transparent;
+    border: none;
+  }
+}
+
+.light-box-md {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 24px;
+  padding: 2em;
+  border: 2px #000000 solid;
+  @media(min-width: $screen-md-min) {
+    background-color: transparent;
+    border: none;
+  }
+}
+
+.ml-header-cabinet {
+  height: 15em;
+  background-image: url("/img/cabinet.jpg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  
+  @media(max-width: $screen-md-min) {
+    height: auto;
+    padding-bottom: 5em;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  .row {
+    /* padding-top: 10em; */
+    @media(max-width: 800px) {
+      padding-top: 6em;
+    }
+  }
+}
+
+#map {
+  height: 20em;
+  width: 100%;
+}

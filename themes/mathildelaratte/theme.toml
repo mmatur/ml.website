@@ -1,0 +1,14 @@
+# theme.toml template for a Hugo theme
+
+name = "ML"
+license = "MIT"
+licenselink = "https://github.com/mmatur/mathildelaratte.website/blob/master/LICENSE"
+homepage = "https://osteopathe-valdoingt.fr/"
+description = "Mathilde LARATTE - Ostéopathe - Square Paul Burricand - Le Bois d&#39;Oingt"
+tags = ["ostéopathe", "Val d'Oingt", "Bois d'Oingt", "Le Bois d'Oingt", "Ostéopathe", "osteo bois d'oingt"]
+features = []
+min_version = "0.41"
+
+[author]
+  name = "mmatur"
+  homepage = "https://github.com/mmatur"

@@ -1,0 +1,19 @@
+baseURL = "https://osteopathe-valdoingt.fr"
+languageCode = "fr-fr"
+title = "Mathilde LARATTE Osteopathe"
+googleAnalytics = "UA-131748760-1"
+
+theme = ["mathildelaratte"]
+
+enableRobotsTXT = true
+canonifyURLs = true
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[params.meta]
+  title = "Mathilde LARATTE - Ostéopathe - Le Bois d'Oingt"
+  description = "Mathilde LARATTE - Ostéopathe - Square Paul Burricand - Le Bois d'Oingt"
+  keywords = ["ostéopathe", "Val d'Oingt", "Bois d'Oingt", "Le Bois d'Oingt", "Ostéopathe", "osteo bois d'oingt"]
