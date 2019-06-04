@@ -7,7 +7,7 @@
   "author": "Michael MATUR",
   "license": "Apache 2",
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.3.1",
     "npm": "^5.8.0"
   },
   "devDependencies": {}
