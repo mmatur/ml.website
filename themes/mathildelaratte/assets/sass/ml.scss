@@ -195,7 +195,7 @@ nav a {
 .rdv-header {
   padding-left: 1em;
   padding-right: 1em;
-  border: 1px solid #EEEEEE;
+  border: 1px solid ;
   border-radius: 15px;
   font-size: 2rem;
   &::before {
@@ -204,11 +204,9 @@ nav a {
       content: 'RDV';
     }
     text-decoration: none;
-    color: #EEEEEE;
   }
   &:hover {
     text-decoration: none;
-    color: #EEEEEE;
   }
 }
 
@@ -244,7 +242,7 @@ nav a {
   background-position: left top;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.75;
+  opacity: 0.85;
   
   @media(max-width: $screen-md-min) {
     height: auto;
