@@ -22,7 +22,7 @@ $(document).ready(function() {
 });
 
 function initMap() {
-  var myLatLng = {lat: 45.921609, lng: 4.586183};
+  var myLatLng = {lat: 45.917032, lng: 4.608995};
 
   // Styles a map in night mode.
   var map = new google.maps.Map(document.getElementById('map'), {
@@ -56,98 +56,98 @@ function initMap() {
         ]
       },
       {
-        featureType: "administrative.land_parcel", 
+        featureType: "administrative.land_parcel",
         elementType: "labels.text.fill",
         stylers: [
           { color: "#bdbdbd" }
         ]
       },
       {
-        featureType: "poi", 
+        featureType: "poi",
         elementType: "geometry",
         stylers: [
           { color: "#eeeeee" }
         ]
       },
       {
-        featureType: "poi", 
+        featureType: "poi",
         elementType: "labels.text.fill",
         stylers: [
           { color: "#757575" }
         ]
       },
       {
-        featureType: "poi.park", 
+        featureType: "poi.park",
         elementType: "geometry",
         stylers: [
           { color: "#e5e5e5" }
         ]
       },
       {
-        featureType: "poi.park", 
+        featureType: "poi.park",
         elementType: "labels.text.fill",
         stylers: [
           { color: "#9e9e9e" }
         ]
       },
       {
-        featureType: "road", 
+        featureType: "road",
         elementType: "geometry",
         stylers: [
           { color: "#ffffff" }
         ]
       },
       {
-        featureType: "road.arterial", 
+        featureType: "road.arterial",
         elementType: "labels.text.fill",
         stylers: [
           { color: "#757575" }
         ]
       },
       {
-        featureType: "road.highway", 
+        featureType: "road.highway",
         elementType: "geometry",
         stylers: [
           { color: "#dadada" }
         ]
       },
       {
-        featureType: "road.highway", 
+        featureType: "road.highway",
         elementType: "labels.text.fill",
         stylers: [
           { color: "#616161" }
         ]
       },
       {
-        featureType: "road.local", 
+        featureType: "road.local",
         elementType: "labels.text.fill",
         stylers: [
           { color: "#9e9e9e" }
         ]
       },
       {
-        featureType: "transit.line", 
+        featureType: "transit.line",
         elementType: "geometry",
         stylers: [
           { color: "#e5e5e5" }
         ]
       },
       {
-        featureType: "transit.station", 
+        featureType: "transit.station",
         elementType: "geometry",
         stylers: [
           { color: "#eeeeee" }
         ]
       },
       {
-        featureType: "water", 
+        featureType: "water",
         elementType: "geometry",
         stylers: [
           { color: "#c9c9c9" }
         ]
       },
       {
-        featureType: "water", 
+        featureType: "water",
         elementType: "labels.text.fill",
         stylers: [
           { color: "#9e9e9e" }
