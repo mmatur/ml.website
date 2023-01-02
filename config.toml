@@ -1,7 +1,7 @@
 baseURL = "https://osteopathe-valdoingt.fr"
 languageCode = "fr-fr"
 title = "Mathilde LARATTE Osteopathe"
-googleAnalytics = "UA-131748760-1"
+googleAnalytics = "G-19W4T6JZFK"
 
 theme = ["mathildelaratte"]
 

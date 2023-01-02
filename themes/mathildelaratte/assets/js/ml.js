@@ -22,7 +22,7 @@ $(document).ready(function() {
 });
 
 function initMap() {
-  var myLatLng = {lat: 45.917032, lng: 4.608995};
+  var myLatLng = {lat: 45.92217756320848, lng: 4.585443285185264};
 
   // Styles a map in night mode.
   var map = new google.maps.Map(document.getElementById('map'), {

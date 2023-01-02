@@ -3,7 +3,7 @@ title: Contact / Informations pratiques
 type: contact
 ---
 
-- Le cabinet se situe au [63 Place de la Libération 69620 Bois d'Oingt, Val d'Oingt](https://goo.gl/maps/7nMgq4JoHQkMyGZ99) (entrée par la rue Ponçon Magnin)
+- Le cabinet se situe au [63 Place de la Libération 69620 Bois d'Oingt, Val d'Oingt](https://goo.gl/maps/EtwajqkjhgYBTib17) (entrée par la rue Ponçon Magnin)
 - Nourrissons, enfants, adultes, femmes enceintes, sportifs, seniors.
 - Consultations sur rendez-vous : 06 10 63 38 59
 - Temps de la consultation : 1H
