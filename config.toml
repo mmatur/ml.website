@@ -1,4 +1,4 @@
-baseURL = "https://osteopathe-bagnols.netlify.app"
+baseURL = "https://osteopathe-valdoingt.fr"
 languageCode = "fr-fr"
 title = "Mathilde LARATTE Osteopathe"
 googleAnalytics = "UA-131748760-1"
@@ -14,6 +14,6 @@ canonifyURLs = true
   priority = 0.5
 
 [params.meta]
-  title = "Mathilde LARATTE - Ostéopathe - Bagnols"
-  description = "Mathilde LARATTE - Ostéopathe - Le Bourg Place du Chateau - Bagnols"
+  title = "Mathilde LARATTE - Ostéopathe - Bois d'Oingt, Val d'Oingt"
+  description = "Mathilde LARATTE - Ostéopathe - Le Bourg Place du Chateau - 63 Place de la Libération 69620 Bois d'Oingt, Val d'Oingt"
   keywords = ["ostéopathe", "Val d'Oingt", "Bois d'Oingt", "Bagnols", "Ostéopathe", "osteo bois d'oingt"]

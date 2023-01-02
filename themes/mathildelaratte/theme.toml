@@ -3,9 +3,9 @@
 name = "ML"
 license = "MIT"
 licenselink = "https://github.com/mmatur/mathildelaratte.website/blob/master/LICENSE"
-# homepage = "https://osteopathe-bagnols.fr/"
-homepage = "https://osteopathe-bagnols.netlify.app/"
-description = "Mathilde LARATTE - Ostéopathe - Le Bourg Place du Chateau - Bagnols"
+homepage = "https://osteopathe-valdoingt.fr/"
+# homepage = "https://osteopathe-valdoingt.netlify.app/"
+description = "Mathilde LARATTE - Ostéopathe - Le Bourg Place du Chateau - 63 Place de la Libération 69620 Bois d'Oingt, Val d'Oingt"
 tags = ["ostéopathe", "Val d'Oingt", "Bagnols", "Le Bois d'Oingt", "Ostéopathe", "osteo bois d'oingt", "osteo bagnols"]
 features = []
 min_version = "0.41"
